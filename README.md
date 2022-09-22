@@ -70,3 +70,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
+1. use to create app in the same folder so we will do like that
+----  npx create-react-app . --use-npm---
+
+2. if you don't oppen your browser automatically than you can do
+ i. create one file in your project name is -> .env.local
+ ii. in that file write in capital ->
+     BROWSER=none
